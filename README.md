@@ -27,7 +27,7 @@
 
 # 📖 Portfolio Microverse Project <a name="about-project"></a>
 
-> This is a simple Web Portfolio that was built using HTML & CSS, and Contain a hamburger nav and logo within a Header section, and a title, bio, and social media links within Headline section.
+> This is a simple Web Portfolio Project that was built using HTML & CSS, and it Contains Header, Headline, Works, About Me section.
 
 **Project Name** is Portfolio Microverse Project
 
@@ -35,15 +35,15 @@
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> This project's stack includes HTML and CSS, with the layout utilizing the flexible box model (flex-box). Additionally, SVG images and a color pattern were used to enhance the visual design.
+> This project's stack includes HTML and CSS, with the layout utilizing the flexible box model (flex-box) and the Grid. Additionally, SVG images and a color pattern were used to enhance the visual design.
 
 
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
-- **[Added Header section]**
-- **[Added Headline section]**
+- **[Added Works Section]**
+- **[Added About Me Section]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -104,15 +104,12 @@ Example command:
 
 ### Run tests
 
-To run tests, run the following command:
-
-<!--
-Example command:
+To run tests, and check the stylelint error run the following command:
 
 ```sh
-  bin/rails test test/models/article_test.rb
+  npx stylelint "*/.{css,scss}"
 ```
---->
+
 
 ### Deployment
 
@@ -146,7 +143,7 @@ Example:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Add New Sections such as "Works" Section and "About myself" Section]**
+- [ ] **[Add Contact Me Section & the Footer ]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
