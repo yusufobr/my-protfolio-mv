@@ -67,7 +67,7 @@ body {
   color: #344563;
   width: 375px;
   height: 590px;
-  background-image: url(/assets/header-shapes-mobile1.svg);
+  background-image: url(./assets/header-shapes-mobile1.svg), url(https://achikdesign.com/mv-assets/header-shapes-mobile1.svg);
   background-repeat: no-repeat;
   background-position: bottom right;
 }
