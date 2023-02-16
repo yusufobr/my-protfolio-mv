@@ -67,7 +67,7 @@ body {
   color: #344563;
   width: 375px;
   height: 590px;
-  background-image: 
+  background-image:
     url(./assets/header-shapes-mobile1.svg),
     url(https://achikdesign.com/mv-assets/header-shapes-mobile1.svg);
   background-repeat: no-repeat;
@@ -198,7 +198,7 @@ body {
 .card-btn:hover {
   color: white;
   background-color: #6070ff;
-  box-shadow: 0px 8px 16px rgba(64, 83, 252, 0.24);
+  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
 }
 
 .card-btn:active {
