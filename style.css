@@ -67,7 +67,9 @@ body {
   color: #344563;
   width: 375px;
   height: 590px;
-  background-image: url(./assets/header-shapes-mobile1.svg), url(https://achikdesign.com/mv-assets/header-shapes-mobile1.svg);
+  background-image:
+    url(./assets/header-shapes-mobile1.svg),
+    url(https://achikdesign.com/mv-assets/header-shapes-mobile1.svg);
   background-repeat: no-repeat;
   background-position: bottom right;
 }
@@ -75,6 +77,11 @@ body {
 .padding {
   padding-right: 24px;
   padding-left: 24px;
+}
+
+.marggin {
+  margin-left: 24px;
+  margin-top: 10px;
 }
 
 .hero h2 {
@@ -101,4 +108,146 @@ body {
 
 .sc-item {
   margin-left: 20px;
+}
+
+.works {
+  margin-top: 136px;
+  margin-bottom: 114px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: auto;
+  row-gap: 88px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  margin: 0 24px;
+  padding: 16px;
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+}
+
+.card-item-mg {
+  margin-bottom: 12px;
+}
+
+.card-img {
+  margin-bottom: 12px;
+}
+
+.card-title {
+  color: #172b4d;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.card-info {
+  display: flex;
+  gap: 12px;
+  font-size: 13px;
+  font-weight: 600;
+  color: #7a869a;
+}
+
+.card-info span {
+  padding: 8px 0;
+}
+
+.info-active {
+  color: #344563;
+}
+
+.card-descrip {
+  color: #344563;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.card-tags {
+  display: flex;
+  gap: 8px;
+}
+
+.card-tag {
+  color: #6070ff;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 4px 12px;
+  background-color: #ebebff;
+  border-radius: 8px;
+}
+
+.card-action {
+  padding: 12px 0;
+}
+
+.card-btn {
+  color: #396df2;
+  font-size: 17px;
+  font-weight: 500;
+  padding: 12px;
+  background-color: white;
+  border: 1px solid #6070ff;
+  border-radius: 8px;
+}
+
+.about-me {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-top: 228px;
+}
+
+.about-me h2 {
+  font-size: 40px;
+  font-weight: 700;
+  max-width: 300px;
+  margin-bottom: 12px;
+  color: #172b4d;
+}
+
+.about-me a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  color: #7f8cff;
+  margin-top: 12px;
+  margin-bottom: 16px;
+}
+
+.q-a {
+  margin: 24px;
+}
+
+.qa {
+  border-bottom: 1px solid #dfe1e6;
+}
+
+.qa summary {
+  list-style: none;
+  display: flex;
+}
+
+.qa summary span {
+  width: 262px;
+  font-size: 20px;
+  font-weight: 500;
+  margin: 18px 0;
+}
+
+.qa-item {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  align-items: center;
+  margin: 12px;
+  padding-bottom: 9px;
+  background-color: #f7f7f9;
+}
+
+.closed summary img {
+  transform: rotate(-90deg);
 }
