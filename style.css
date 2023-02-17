@@ -104,6 +104,7 @@ body {
   display: flex;
   margin-left: 24px;
   margin-top: 12px;
+  list-style-type: none;
 }
 
 .sc-item {
@@ -142,6 +143,7 @@ body {
   color: #172b4d;
   font-size: 32px;
   font-weight: 700;
+  padding-right: 8px;
 }
 
 .card-info {
@@ -169,6 +171,7 @@ body {
 .card-tags {
   display: flex;
   gap: 8px;
+  list-style-type: none;
 }
 
 .card-tag {
@@ -267,6 +270,7 @@ body {
   margin: 12px;
   padding-bottom: 9px;
   background-color: #f7f7f9;
+  list-style-type: none;
 }
 
 .closed summary img {
