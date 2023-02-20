@@ -178,6 +178,11 @@ body {
   background-color: #ebebff;
 }
 
+.card-tag-css {
+  float: left;
+  margin-right: 8px;
+  background-color: #ebebff;
+}
 .card-tag {
   color: #6070ff;
   font-size: 12px;
