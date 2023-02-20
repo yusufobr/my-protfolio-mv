@@ -169,9 +169,13 @@ body {
 }
 
 .card-tags {
-  display: flex;
-  gap: 8px;
   list-style-type: none;
+}
+
+.card-tag-html {
+  float: left;
+  margin-right: 8px;
+  background-color: #ebebff;
 }
 
 .card-tag {
@@ -179,7 +183,6 @@ body {
   font-size: 12px;
   font-weight: 500;
   padding: 4px 12px;
-  background-color: #ebebff;
   border-radius: 8px;
 }
 
