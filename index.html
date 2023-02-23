@@ -5,63 +5,75 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <title>My Portfolio Microverse</title>
+    <title>Yusuf Obr | Portfolio</title>
   </head>
   <body>
-    <!-- Header Section -->
+    <!-- Header -->
     <header class="header">
-      <a href="#">Yusuf Obr</a>
-      <nav class="hamburger">
-        <span class="hamburger-top"></span>
-        <span class="hamburger-middle"></span>
-        <span class="hamburger-bottom"></span>
+      <nav class="nav-desktop">
+        <a class="logo" href="#">Yusuf Obr</a>
+        <ul class="nav-sections">
+          <li><a class="nav-item" href="#hero">Portoflio</a></li>
+          <li><a class="nav-item" href="#about">About</a></li>
+          <li><a class="nav-item" href="#contact">Contact</a></li>
+        </ul>
+        <!-- Hamburger Menu -->
+        <button class="hamburger-btn">
+          <img src="./assets/hamburger-icon.svg" alt="" />
+        </button>
       </nav>
     </header>
 
-    <!-- Headline Section -->
-    <section class="hero">
-      <h2 class="padding">I’m Youssef Glad to see you!</h2>
-      <p class="padding">
-        I’m a software developer! I can help you build a product , feature or
-        website Look through some of my work and experience! If you like what
-        you see and have a project you need coded, don’t hestiate to contact me.
-      </p>
-      <a class="padding" href="#">LET’S CONNECT</a>
-      <ul class="social">
-        <li>
-          <a href="https://github.com/yusufobr">
-            <img src="./assets/126.svg" alt="github" />
-          </a>
-        </li>
-        <li>
-          <a href="https://www.linkedin.com/in/youssef-oubari-370451147">
-            <img class="sc-item" src="./assets/125.svg" alt="linkedin" />
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <img class="sc-item" src="./assets/123.svg" alt="hand" />
-          </a>
-        </li>
-        <li>
-          <a href="https://twitter.com/OubariY">
-            <img class="sc-item" src="./assets/127.svg" alt="twitter" />
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <img class="sc-item" src="./assets/124.svg" alt="M" />
-          </a>
-        </li>
-      </ul>
+    <!-- Hero Section -->
+    <section id="hero" class="hero fit-with-screen">
+      <div class="hero-container">
+        <h2 class="title">
+          I'm Youssef <br />
+          Glad to see you!
+        </h2>
+        <p class="bio">
+          I'm a software developer! I can help you build a product , feature or
+          website Look through some of my work and experience! If you like what
+          you see and have a project you need coded, don't hestiate to contact
+          me.
+        </p>
+        <a href="">LET'S CONNECT</a>
+        <ul class="social">
+          <li>
+            <a href="https://github.com/yusufobr">
+              <img src="./assets/github.svg" alt="github" />
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/youssef-oubari-370451147">
+              <img class="sc-item" src="./assets/linkedin.svg" alt="linkedin" />
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img class="sc-item" src="./assets/hand.svg" alt="hand" />
+            </a>
+          </li>
+          <li>
+            <a href="https://twitter.com/OubariY">
+              <img class="sc-item" src="./assets/twitter.svg" alt="twitter" />
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img class="sc-item" src="./assets/m.svg" alt="M" />
+            </a>
+          </li>
+        </ul>
+      </div>
     </section>
 
     <!-- Works Section -->
     <section class="works">
-      <div class="cards">
-        <!-- First Card -->
+      <div class="works-container">
+        <!-- 1st Card -->
         <div class="card">
-          <img class="card-img" src="./assets/Snapshoot1.png" alt="" />
+          <img class="card-img" src="./assets/Snapshoot-1.png" alt="" />
           <div class="card-details">
             <div class="card-item-mg">
               <h3 class="card-title">Tonic</h3>
@@ -87,26 +99,58 @@
             </div>
           </div>
         </div>
-        <!-- Second Card -->
-        <div class="card">
-          <img class="card-img" src="./assets/Snapshoot2.png" alt="" />
+        <!-- 2nd Card -->
+        <div class="card reverse">
           <div class="card-details">
             <div class="card-item-mg">
               <h3 class="card-title">Multi-Post Stories</h3>
               <div class="card-info">
-                <span class="info-active">CANOPY</span>
+                <span class="info-active">FACEBOOK</span>
                 <img src="./assets/Counter.svg" alt="" />
-                <span>Back End Dev</span>
+                <span>Full Stack Dev</span>
                 <img src="./assets/Counter.svg" alt="" />
                 <span>2015</span>
               </div>
             </div>
             <p class="card-descrip card-item-mg">
-              A daily selection of privately personalized reads; no accounts or
-              sign-ups required.
+              Experimental content creation feature that allows users to add to
+              an existing story over the course of a day without spamming their
+              friends.
             </p>
             <ul class="card-tags card-item-mg">
               <li class="card-tag">html</li>
+              <li class="card-tag">Ruby on rails</li>
+              <li class="card-tag">css</li>
+              <li class="card-tag">javascript</li>
+            </ul>
+            <div class="card-action">
+              <button class="card-btn">See Project</button>
+            </div>
+          </div>
+          <img class="card-img" src="./assets/Snapshoot-2.png" alt="" />
+        </div>
+        <!-- 3rd Card -->
+        <div class="card">
+          <img class="card-img" src="./assets/Snapshoot-3.png" alt="" />
+          <div class="card-details">
+            <div class="card-item-mg">
+              <h3 class="card-title">Facebook 360</h3>
+              <div class="card-info">
+                <span class="info-active">FACEBOOK</span>
+                <img src="./assets/Counter.svg" alt="" />
+                <span>Full Stack Dev</span>
+                <img src="./assets/Counter.svg" alt="" />
+                <span>2015</span>
+              </div>
+            </div>
+            <p class="card-descrip card-item-mg">
+              Exploring the future of media in Facebook's first Virtual Reality
+              app; a place to discover and enjoy 360 photos and videos on Gear
+              VR..
+            </p>
+            <ul class="card-tags card-item-mg">
+              <li class="card-tag">html</li>
+              <li class="card-tag">Ruby on rails</li>
               <li class="card-tag">css</li>
               <li class="card-tag">javascript</li>
             </ul>
@@ -115,26 +159,26 @@
             </div>
           </div>
         </div>
-        <!-- Third Card -->
-        <div class="card">
-          <img class="card-img" src="./assets/Snapshoot3.png" alt="" />
+        <!-- 4th Card -->
+        <div class="card reverse">
           <div class="card-details">
             <div class="card-item-mg">
-              <h3 class="card-title">Tonic</h3>
+              <h3 class="card-title">Uber Navigation</h3>
               <div class="card-info">
-                <span class="info-active">CANOPY</span>
+                <span class="info-active">Uber</span>
                 <img src="./assets/Counter.svg" alt="" />
-                <span>Back End Dev</span>
+                <span>Lead Developer</span>
                 <img src="./assets/Counter.svg" alt="" />
                 <span>2015</span>
               </div>
             </div>
             <p class="card-descrip card-item-mg">
-              A daily selection of privately personalized reads; no accounts or
-              sign-ups required.
+              A smart assistant to make driving more safe, efficient, and fun by
+              unlocking your most expensive computer: your car.
             </p>
             <ul class="card-tags card-item-mg">
               <li class="card-tag">html</li>
+              <li class="card-tag">Ruby on rails</li>
               <li class="card-tag">css</li>
               <li class="card-tag">javascript</li>
             </ul>
@@ -142,120 +186,100 @@
               <button class="card-btn">See Project</button>
             </div>
           </div>
-        </div>
-        <!-- Fourth Card -->
-        <div class="card">
-          <img class="card-img" src="./assets/Snapshoot4.png" alt="" />
-          <div class="card-details">
-            <div class="card-item-mg">
-              <h3 class="card-title">Multi-Post Stories</h3>
-              <div class="card-info">
-                <span class="info-active">CANOPY</span>
-                <img src="./assets/Counter.svg" alt="" />
-                <span>Back End Dev</span>
-                <img src="./assets/Counter.svg" alt="" />
-                <span>2015</span>
-              </div>
-            </div>
-            <p class="card-descrip card-item-mg">
-              A daily selection of privately personalized reads; no accounts or
-              sign-ups required.
-            </p>
-            <ul class="card-tags card-item-mg">
-              <li class="card-tag">html</li>
-              <li class="card-tag">css</li>
-              <li class="card-tag">javascript</li>
-            </ul>
-            <div class="card-action">
-              <button class="card-btn">See Project</button>
-            </div>
-          </div>
+          <img class="card-img" src="./assets/Snapshoot-4.png" alt="" />
         </div>
       </div>
     </section>
 
-    <!-- About Me Section -->
-    <section class="about-me">
-      <h2 class="padding">
-        About <br />
-        Myself
-      </h2>
-      <p class="padding">
-        Hello I’m a software developer! I can help you build a product , feature
-        or website Look through some of my work and experience! If you like what
-        you see and have a project you need coded, don’t hestiate to contact me.
-      </p>
-      <a class="padding" href="#">LET’S CONNECT</a>
-      <ul class="social">
-        <li>
-          <a href="https://github.com/yusufobr">
-            <img src="./assets/126.svg" alt="github" />
-          </a>
-        </li>
-        <li>
-          <a href="https://www.linkedin.com/in/youssef-oubari-370451147">
-            <img class="sc-item" src="./assets/125.svg" alt="linkedin" />
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <img class="sc-item" src="./assets/123.svg" alt="hand" />
-          </a>
-        </li>
-        <li>
-          <a href="https://twitter.com/OubariY">
-            <img class="sc-item" src="./assets/127.svg" alt="twitter" />
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <img class="sc-item" src="./assets/124.svg" alt="M" />
-          </a>
-        </li>
-      </ul>
-      <div class="card-action marggin">
-        <button class="card-btn">Get my resume</button>
+    <!-- About Me & Q&A Section -->
+    <section id="about" class="about-me fit-with-screen">
+      <div class="about-me-container">
+        <div class="hero-container mx-w">
+          <h2 class="about-title">
+            About <br />
+            Myself
+          </h2>
+          <p class="about-bio">
+            Hello I’m a software developer! I can help you build a product ,
+            feature or website Look through some of my work and experience! If
+            you like what you see and have a project you need coded, don’t
+            hestiate to contact me.
+          </p>
+          <a href="">LET'S CONNECT</a>
+          <ul class="social">
+            <li>
+              <a href="https://github.com/yusufobr">
+                <img src="./assets/github.svg" alt="github" />
+              </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/youssef-oubari-370451147">
+                <img
+                  class="sc-item"
+                  src="./assets/linkedin.svg"
+                  alt="linkedin"
+                />
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img class="sc-item" src="./assets/hand.svg" alt="hand" />
+              </a>
+            </li>
+            <li>
+              <a href="https://twitter.com/OubariY">
+                <img class="sc-item" src="./assets/twitter.svg" alt="twitter" />
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img class="sc-item" src="./assets/m.svg" alt="M" />
+              </a>
+            </li>
+          </ul>
+          <div class="card-action marggin">
+            <button class="card-btn">Get my resume</button>
+          </div>
+        </div>
+        <div class="q-a">
+          <details class="qa" open>
+            <summary>
+              <span>Languages</span>
+              <img src="./assets/arrow-bottom.svg" alt="" width="12" />
+            </summary>
+            <ul class="skills">
+              <li class="qa-item">
+                <img src="./assets/js.png" alt="" />
+                <span>javascript</span>
+              </li>
+              <li class="qa-item">
+                <img src="./assets/html.png" alt="" />
+                <span>HTML</span>
+              </li>
+              <li class="qa-item">
+                <img src="./assets/css.png" alt="" />
+                <span>CSS</span>
+              </li>
+            </ul>
+          </details>
+          <details class="qa closed">
+            <summary>
+              <span>Frameworks</span>
+              <img src="./assets/arrow-bottom.svg" alt="" width="12" />
+            </summary>
+          </details>
+          <details class="qa closed">
+            <summary>
+              <span>Skills</span>
+              <img src="./assets/arrow-bottom.svg" alt="" width="12" />
+            </summary>
+          </details>
+        </div>
       </div>
-    </section>
-
-    <!-- Q&A Section -->
-    <section class="q-a">
-      <details class="qa" open>
-        <summary>
-          <span>Languages</span>
-          <img src="./assets/arrow-bottom.svg" alt="" width="12" />
-        </summary>
-        <ul>
-          <li class="qa-item">
-            <img src="./assets/js.png" alt="" />
-            <span>javascript</span>
-          </li>
-          <li class="qa-item">
-            <img src="./assets/html.png" alt="" />
-            <span>HTML</span>
-          </li>
-          <li class="qa-item">
-            <img src="./assets/css.png" alt="" />
-            <span>CSS</span>
-          </li>
-        </ul>
-      </details>
-      <details class="qa closed">
-        <summary>
-          <span>Frameworks</span>
-          <img src="./assets/arrow-bottom.svg" alt="" width="12" />
-        </summary>
-      </details>
-      <details class="qa closed">
-        <summary>
-          <span>Skills</span>
-          <img src="./assets/arrow-bottom.svg" alt="" width="12" />
-        </summary>
-      </details>
     </section>
 
     <!-- Contact Form -->
-    <section class="contact">
+    <section id="contact" class="contact fit-with-screen">
       <div class="contact-container">
         <div class="contact-descrition">
           <h3>Contact me</h3>

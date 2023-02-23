@@ -40,8 +40,7 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **Added the Contact Me Form**
-- **Added the Style of contact section**
+- **Added the responsive Layout for the 4 types of screens**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
