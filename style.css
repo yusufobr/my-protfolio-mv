@@ -611,3 +611,9 @@ form button {
 .upScale {
   animation: upScale 1.2s ease-in;
 }
+
+.qa-item:hover {
+  transform: scale(1.02);
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
+}
