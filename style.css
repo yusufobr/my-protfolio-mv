@@ -605,7 +605,13 @@ form button {
 }
 
 @keyframes upScale {
-  transform: scale(1.02);
+  from {
+    transform: scale(1.02);
+  }
+  to {
+    transform: scale(1);
+
+  }
 }
 
 .upScale {
