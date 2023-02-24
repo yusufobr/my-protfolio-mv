@@ -120,10 +120,7 @@ header {
 .social {
   display: flex;
   list-style-type: none;
-}
-
-.sc-item {
-  margin-left: 20px;
+  gap: 20px;
 }
 
 .works-container {
@@ -577,4 +574,30 @@ form button {
   textarea {
     border-radius: 0;
   }
+}
+
+
+/* Animations */
+@keyframes SlideInLeft {
+  from {
+    transform: translateX(200px);
+  }
+  to {
+    transform: translateX(0);
+  }
+} 
+@keyframes SlideInRight {
+  from {
+    transform: translateX(-200px);
+  }
+  to {
+    transform: translateX(0);
+  }
+} 
+
+.slid-l {
+  animation: SlideInLeft 1.2s ease-in-out;
+}
+.slid-r {
+  animation: SlideInRight 1.2s ease-in-out;
 }
