@@ -584,14 +584,17 @@ form button {
   from {
     transform: translateX(200px);
   }
+
   to {
     transform: translateX(0);
   }
 }
+
 @keyframes SlideInRight {
   from {
     transform: translateX(-200px);
   }
+
   to {
     transform: translateX(0);
   }
@@ -600,6 +603,7 @@ form button {
 .slid-l {
   animation: SlideInLeft 1.2s ease-in-out;
 }
+
 .slid-r {
   animation: SlideInRight 1.2s ease-in-out;
 }
@@ -608,9 +612,9 @@ form button {
   from {
     transform: scale(1.02);
   }
+
   to {
     transform: scale(1);
-
   }
 }
 
