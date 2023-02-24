@@ -149,6 +149,9 @@ header {
   filter: drop-shadow(0 48px 48px rgba(37, 47, 137, 0.08));
   cursor: pointer;
   border-color: #a7aeff;
+  transform: scale(1.02);
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
 }
 
 .card-img {
@@ -576,7 +579,6 @@ form button {
   }
 }
 
-
 /* Animations */
 @keyframes SlideInLeft {
   from {
@@ -585,7 +587,7 @@ form button {
   to {
     transform: translateX(0);
   }
-} 
+}
 @keyframes SlideInRight {
   from {
     transform: translateX(-200px);
@@ -593,11 +595,19 @@ form button {
   to {
     transform: translateX(0);
   }
-} 
+}
 
 .slid-l {
   animation: SlideInLeft 1.2s ease-in-out;
 }
 .slid-r {
   animation: SlideInRight 1.2s ease-in-out;
+}
+
+@keyframes upScale {
+  transform: scale(1.02);
+}
+
+.upScale {
+  animation: upScale 1.2s ease-in;
 }

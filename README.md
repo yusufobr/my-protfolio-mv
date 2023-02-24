@@ -40,7 +40,8 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **Added the responsive Layout for the 4 types of screens**
+- **Added the animation For the Hero section**
+- **Added the animation for the work cards**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
