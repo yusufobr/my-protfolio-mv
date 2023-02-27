@@ -8,6 +8,7 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -40,8 +41,14 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **Added the animation For the Hero section**
-- **Added the animation for the work cards**
+- **Explore Project**
+- **Live Preview**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [Live Demo](https://yusufobr.github.io/my-protfolio-mv/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
