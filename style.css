@@ -33,7 +33,7 @@ header {
   text-decoration: none;
   font-size: 18px;
   font-weight: 700;
-  color: #6070ff;
+  color: #5263FF;
 }
 
 .nav-item {
@@ -83,7 +83,7 @@ header {
   text-decoration: none;
   font-size: 16px;
   font-weight: 500;
-  color: #7f8cff;
+  color: #5263FF;
 }
 
 .hero-container {
@@ -203,7 +203,7 @@ header {
 }
 
 .card-tag {
-  color: #6070ff;
+  color: #5263FF;
   font-size: 12px;
   font-weight: 500;
   padding: 4px 12px;
@@ -221,14 +221,14 @@ header {
   font-weight: 500;
   padding: 12px;
   background-color: white;
-  border: 1px solid #6070ff;
+  border: 1px solid #5263FF;
   border-radius: 8px;
   cursor: pointer;
 }
 
 .card-btn:hover {
   color: white;
-  background-color: #6070ff;
+  background-color: #5263FF;
   box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
 }
 
@@ -314,7 +314,7 @@ header {
   background-image: url(./assets/contact-bg-desktop.svg);
   background-repeat: no-repeat;
   background-position: top right;
-  background-color: #6070ff;
+  background-color: #5263FF;
   color: white;
   border-top-left-radius: 100px;
 }
