@@ -400,6 +400,8 @@ form button {
     display: flex;
     flex-direction: column;
     position: fixed;
+    -webkit-backdrop-filter: blur(8px);
+     backdrop-filter: blur(8px);
     gap: 46px;
     top: 0;
     left: 0;
@@ -410,7 +412,7 @@ form button {
     padding-left: 30px;
     padding-right: 43px;
     padding-top: 24px;
-    background-color: #6070ffef;
+    background-color: #2a3ef5a6;
     animation: SlideInLeft 0.5s ease-in-out;
   }
 
