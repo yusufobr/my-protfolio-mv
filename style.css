@@ -399,7 +399,7 @@ form button {
   .nav-mobile {
     display: flex;
     flex-direction: column;
-    position: absolute;
+    position: fixed;
     gap: 46px;
     top: 0;
     left: 0;
