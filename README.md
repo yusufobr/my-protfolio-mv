@@ -140,8 +140,7 @@ Example:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- **Added the Footer**
-- **Added the Works Links**
+- **Added the Menu nav mobile**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

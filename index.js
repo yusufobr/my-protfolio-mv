@@ -1,8 +1,18 @@
-const btn = document.getElementById('menu-btn')
-const nav = document.getElementById('menu')
+const btnOpen = document.getElementById('hamburger-icon');
+const btnClose = document.getElementById('close-btn');
+const nav = document.getElementById('mobile-nav');
+const mobileMenuLinks = nav.querySelectorAll('a');
 
-btn.addEventListener('click', () => {
-    btn.classList.toggle('open')
-    // nav.classList.toggle('flex')
-    nav.classList.toggle('hidden')
-})
+btnOpen.addEventListener('click', () => {
+  nav.classList.toggle('hidden');
+});
+
+btnClose.addEventListener('click', () => {
+  nav.classList.toggle('hidden');
+});
+
+mobileMenuLinks.forEach((link) => {
+  link.addEventListener('click', () => {
+    nav.classList.add('hidden');
+  });
+});
