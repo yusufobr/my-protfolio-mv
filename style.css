@@ -401,7 +401,7 @@ form button {
     flex-direction: column;
     position: fixed;
     -webkit-backdrop-filter: blur(8px);
-     backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
     gap: 46px;
     top: 0;
     left: 0;
