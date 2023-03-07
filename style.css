@@ -18,7 +18,7 @@ header {
   background-color: white;
   padding-top: 20px;
   padding-bottom: 20px;
-  z-index: 999;
+  z-index: 99;
 }
 
 .hidden {
@@ -102,6 +102,10 @@ header {
   margin: auto;
   padding: 200px 0;
   justify-content: center;
+}
+
+.reverse {
+  flex-direction: column-reverse;
 }
 
 .title {
@@ -420,7 +424,7 @@ form button {
     margin-right: 0;
     width: 100%;
     text-align: right;
-    font-size: 20px;
+    font-size: 32px;
     font-weight: 600;
     border-style: none;
     color: white;
@@ -508,9 +512,9 @@ form button {
     padding: 16px;
   }
 
-  .reverse {
+  /* .reverse {
     flex-direction: column-reverse;
-  }
+  } */
 
   .q-a {
     width: 96%;
@@ -567,9 +571,9 @@ form button {
     justify-content: center;
   }
 
-  .reverse {
+  /* .reverse {
     flex-direction: column-reverse;
-  }
+  } */
 
   .hero-container {
     width: 80%;
@@ -603,9 +607,9 @@ form button {
     padding: 0;
   }
 
-  .reverse {
+  /* .reverse {
     flex-direction: column-reverse;
-  }
+  } */
 
   .works-container {
     grid-template-columns: 1fr 1fr;
@@ -684,4 +688,14 @@ form button {
   transform: scale(1.02);
   transition-duration: 0.3s;
   transition-timing-function: ease-in-out;
+}
+
+#overly {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #c1c7d085;
+  z-index: 999;
 }
