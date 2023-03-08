@@ -44,6 +44,7 @@
 - **Add Dynamic cards**
 - **Build the popup design**
 - **Add Dynamic Popups**
+- **Build Form Validation**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
