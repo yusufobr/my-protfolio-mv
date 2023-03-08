@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style.css" />
     <title>Yusuf Obr | Portfolio</title>
   </head>
+
   <body>
     <!-- Header -->
     <header class="header">
@@ -213,7 +214,7 @@
             to help with it
           </p>
         </div>
-        <form action="https://formspree.io/f/xnqydzvy" method="POST">
+        <form id="form" action="https://formspree.io/f/xnqydzvy" method="POST">
           <input
             type="text"
             name="name"
@@ -229,6 +230,7 @@
             placeholder="natajayanj14@gmail.com"
             required
           />
+          <div id="error" class="error"></div>
           <textarea
             name="message"
             id="message"
@@ -245,6 +247,6 @@
     <div id="overly" class="hidden"></div>
 
     <div id="popupCard" class="hidden-popup"></div>
-    <script src="./index.js"></script>
+    <script defer src="./index.js"></script>
   </body>
 </html>

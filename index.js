@@ -254,3 +254,20 @@ projects.forEach((aProject) => {
     });
   });
 });
+
+
+// Validate Form 
+
+const form = document.getElementById('form');
+const email = document.getElementById('email');
+const errMsg = document.getElementById('error');
+
+errMsg.style.display = 'none'
+
+form.addEventListener('submit', e => {
+  if(email.value !== email.value.toLowerCase()) {
+    e.preventDefault();
+    errMsg.style.display = 'block'
+    errMsg.innerHTML = 'Please make sure that your email is correct..!';
+  }  
+})
