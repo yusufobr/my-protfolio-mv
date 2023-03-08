@@ -41,8 +41,9 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **Explore Project**
-- **Live Preview**
+- **Add Dynamic cards**
+- **Build the popup design**
+- **Add Dynamic Popups**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -134,6 +135,12 @@ Example:
 - Twitter: [@OubariY](https://twitter.com/OubariY)
 - LinkedIn: [Youssef OUBARI](https://www.linkedin.com/in/youssef-oubari-370451147)
 
+ **Ansar Ibrahim**
+
+- GitHub: [Ansar Ibrahim](https://github.com/AnsarIbrahim)
+- Twitter: [Ansar Ibrahim](https://twitter.com/ansaradheeb)
+- LinkedIn: [Ansar Ibrahim](https://linkedin.com/in/ansar-ibrahim-61447424a/)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
@@ -149,6 +156,7 @@ Example:
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
+- Ansar Ibrahim
 
 Feel free to check the [issues page](../../issues/).
 
