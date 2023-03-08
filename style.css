@@ -205,6 +205,8 @@ header {
 
 .info-active {
   color: #344563;
+
+  /* font-weight: bolder; */
 }
 
 .card-tags {
@@ -447,6 +449,19 @@ form button {
     text-decoration: none;
     color: white;
   }
+
+  .pop-content {
+    flex-direction: column;
+  }
+
+  .pop-content p {
+    width: 100% !important;
+    font-size: 15px;
+  }
+
+  .pop-footer {
+    width: 100% !important;
+  }
 }
 
 /* Small screens */
@@ -546,6 +561,24 @@ form button {
 
   form button {
     margin: 0;
+  }
+
+  .pop-img {
+    min-height: initial !important;
+  }
+
+  #popupCard {
+    gap: 2px !important;
+    margin: 3% 3% !important;
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+  }
+
+  #popupCard .pop-img .card-img {
+    object-fit: initial;
+    height: 220px;
+    padding-left: 0;
+    padding-right: 0;
   }
 }
 
@@ -698,4 +731,123 @@ form button {
   bottom: 0;
   background-color: #c1c7d085;
   z-index: 999;
+  pointer-events: none;
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+}
+
+#popupCard {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+  gap: 20px;
+  top: 0;
+  left: 0;
+  margin: 2% 9%;
+  background-color: white;
+  border-radius: 16px;
+  z-index: 9999;
+  max-height: 90vh;
+  overflow: auto;
+}
+
+#popupCard::-webkit-scrollbar {
+  display: none;
+}
+
+.pop-head {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+#pop-btn {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 2rem;
+  color: #67798e;
+}
+
+.pop-content {
+  display: flex;
+  gap: 20px;
+}
+
+.pop-content p {
+  width: 66%;
+}
+
+.pop-img {
+  min-height: 40vh;
+  height: 50vh;
+  overflow: hidden;
+}
+
+.pop-img .card-img {
+  max-width: none;
+  width: 100%;
+  object-fit: cover;
+}
+
+.pop-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 30%;
+}
+
+.pop-footer .span {
+  width: 100%;
+  height: 1px;
+  background-color: #ebecf0;
+}
+
+.pop-footer .pop-button {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 8px;
+  color: #6070ff;
+  background-color: white;
+  border: 1px solid #6070ff;
+  border-radius: 8px;
+  height: 40px;
+  font-size: 15px;
+  font-weight: 500;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.pop-footer .pop-button:hover {
+  color: white;
+  background-color: #5263ff;
+  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+}
+
+.pop-footer .pop-button:active {
+  color: white;
+  background-color: #2230d2;
+  box-shadow: none;
+}
+
+.pop-footer .pop-button:disabled {
+  color: #5e6c84;
+  background: none;
+  box-shadow: none;
+  border-color: #c1c7d0;
+  cursor: no-drop;
+}
+
+.pop-actions {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.hidden-popup {
+  transform: scale(0);
 }
