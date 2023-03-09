@@ -148,7 +148,7 @@ Example:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- **Added the Menu nav mobile**
+- **Preserve data in the browser**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
