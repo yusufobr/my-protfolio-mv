@@ -274,22 +274,21 @@ const userName = document.getElementById('name');
 const userEmail = document.getElementById('email');
 const userMsg = document.getElementById('message');
 
-form.addEventListener('change', ()=> {
-  let userData = {
+form.addEventListener('change', () => {
+  const userData = {
     name: userName.value,
     email: userEmail.value,
-    message : userMsg.value,
-  }
+    message: userMsg.value,
+  };
 
-  let userData_serialized = JSON.stringify(userData);
-  localStorage.setItem('userData', userData_serialized)
-  
+  const userDataSerialized = JSON.stringify(userData);
+  localStorage.setItem('userData', userDataSerialized);
 });
 
-window.addEventListener('load', ()=> {
-  let userData_deserialized = JSON.parse(localStorage.userData);
+window.addEventListener('load', () => {
+  const userDataDeserialized = JSON.parse(localStorage.userData);
 
-  userName.value = userData_deserialized.name
-  userEmail.value = userData_deserialized.email
-
+  userName.value = userDataDeserialized.name;
+  userEmail.value = userDataDeserialized.email;
+  userMsg.value = userDataDeserialized.message;
 });
