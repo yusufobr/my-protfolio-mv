@@ -41,10 +41,7 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **Add Dynamic cards**
-- **Build the popup design**
-- **Add Dynamic Popups**
-- **Build Form Validation**
+- **added preserve data in the browser feature**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
