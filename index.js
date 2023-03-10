@@ -17,6 +17,20 @@ mobileMenuLinks.forEach((link) => {
   });
 });
 
+// Limit the number of words in Paragraphs
+function limitWords(paragraph, limit) {
+  const words = paragraph.split(' ');
+  if (words.length <= limit) return paragraph;
+
+  const limitedWords = words.slice(0, limit);
+
+  let limitedParagraph = limitedWords.join(' ');
+
+  limitedParagraph += '...';
+
+  return limitedParagraph;
+}
+
 //  Cards data
 const projects = [
   {
@@ -137,7 +151,7 @@ for (let i = 0; i < projects.length; i += 1) {
 
   const description = document.createElement('p');
   description.classList.add('card-descrip', 'card-item-mg');
-  let parag = projects[i].description;
+  const parag = projects[i].description;
   description.textContent = limitWords(parag, 18);
   details.appendChild(description);
 
@@ -293,17 +307,3 @@ window.addEventListener('load', () => {
   userEmail.value = userDataDeserialized.email;
   userMsg.value = userDataDeserialized.message;
 });
-
-// Limit the number of words in Paragraphs
-function limitWords(paragraph, limit) {
-  var words = paragraph.split(' ');
-  if (words.length <= limit) return paragraph;
-
-  var limitedWords = words.slice(0, limit);
-
-  var limitedParagraph = limitedWords.join(' ');
-
-  limitedParagraph += '...';
-  
-  return limitedParagraph;
-}
