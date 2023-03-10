@@ -18,7 +18,6 @@ mobileMenuLinks.forEach((link) => {
 });
 
 //  Cards data
-
 const projects = [
   {
     id: 1,
@@ -256,7 +255,6 @@ projects.forEach((aProject) => {
 });
 
 // Validate Form
-
 const form = document.getElementById('form');
 const email = document.getElementById('email');
 const errMsg = document.getElementById('error');
@@ -269,4 +267,29 @@ form.addEventListener('submit', (e) => {
     errMsg.style.display = 'block';
     errMsg.innerHTML = 'Please make sure that your email is correct..!';
   }
+});
+
+//  Preserve data in the browser
+const userName = document.getElementById('name');
+const userEmail = document.getElementById('email');
+const userMsg = document.getElementById('message');
+
+form.addEventListener('change', ()=> {
+  let userData = {
+    name: userName.value,
+    email: userEmail.value,
+    message : userMsg.value,
+  }
+
+  let userData_serialized = JSON.stringify(userData);
+  localStorage.setItem('userData', userData_serialized)
+  
+});
+
+window.addEventListener('load', ()=> {
+  let userData_deserialized = JSON.parse(localStorage.userData);
+
+  userName.value = userData_deserialized.name
+  userEmail.value = userData_deserialized.email
+
 });
