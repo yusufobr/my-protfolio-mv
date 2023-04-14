@@ -173,6 +173,7 @@ header {
   max-width: 544px;
   min-width: 295px;
   margin: auto;
+  border: 1px solid #dfe1e6;
   border-radius: 8px;
 }
 

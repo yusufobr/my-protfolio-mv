@@ -35,18 +35,18 @@ function limitWords(paragraph, limit) {
 const projects = [
   {
     id: 1,
-    title: 'Tonic',
-    company: 'CANOPY',
-    post: 'Back End Dev',
-    year: '2014',
-    image: './assets/Snapshoot-1.png',
+    title: 'Ex Investor',
+    company: 'Microverse',
+    post: 'Front End Dev',
+    year: '2023',
+    image: './assets/ex-investor.png',
     technologies: ['html', 'css', 'javascript'],
     description:
-      'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+      'Ex-Investor Event is aimed at amateur investors seeking to gain inspiration and motivation from the success stories of seasoned investors.',
     details:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis vero culpa, excepturi harum corrupti inventore, quis cupiditate atque dolorem veritatis autem necessitatibus officiis vitae doloremque earum laudantium soluta praesentium odit at id aut aspernatur quas alias voluptates. Rerum veniam cum maiores? Aspernatur dolorem architecto et praesentium vitae earum voluptates exercitationem.',
-    liveVersion: 'https://yusufobr.github.io/my-protfolio-mv/',
-    githubLink: 'https://github.com/yusufobr',
+      'Ex-Investor Event is aimed at amateur investors seeking to gain inspiration and motivation from the success stories of seasoned investors.',
+    liveVersion: 'https://yusufobr.github.io/conference-capstone/',
+    githubLink: 'https://github.com/yusufobr/conference-capstone',
   },
   {
     id: 2,
