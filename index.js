@@ -44,7 +44,7 @@ const projects = [
     description:
       'Ex-Investor Event is aimed at amateur investors seeking to gain inspiration and motivation from the success stories of seasoned investors.',
     details:
-      'Ex-Investor Event is aimed at amateur investors seeking to gain inspiration and motivation from the success stories of seasoned investors.',
+      'Ex-Investor Event is aimed at amateur investors seeking to gain inspiration and motivation from the success stories of seasoned investors',
     liveVersion: 'https://yusufobr.github.io/conference-capstone/',
     githubLink: 'https://github.com/yusufobr/conference-capstone',
   },
